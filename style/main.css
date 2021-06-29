@@ -1,0 +1,47 @@
+/*Importando arquivos estilos */
+@import "./config.css";
+
+header{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+header h1{
+   margin-bottom: 10px;
+}
+
+header a{
+    color: #fff;
+}
+
+header i{
+    font-size: 30px;
+}
+
+header i:hover{
+    color: #f5f5f5;
+}
+
+#container-home div{
+    padding: 40px;
+}
+
+#container-home div a{
+    border: 3px solid dodgerblue;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    
+}
+
+#container-home div a:first-child{
+   margin-right: 10px;
+}
+
+#container-home div a:hover{
+    background-color: dodgerblue;
+    
+}
