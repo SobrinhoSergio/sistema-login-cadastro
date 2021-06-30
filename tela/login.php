@@ -28,7 +28,7 @@
                 <input type="email" name="email" placeholder="Email"><br/>
                 <input type="password" name="senha" placeholder="Senha"><br/>
 
-                <input type="submit" name="submit" id="submit" value="Enviar">
+                <input type="submit" name="submit" id="submit" value="Entrar">
               
 
             </fieldset>

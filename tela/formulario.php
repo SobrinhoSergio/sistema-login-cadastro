@@ -18,7 +18,7 @@ if(isset($_POST['submit']) && !empty($_POST['email'] && !empty($_POST['senha']))
 
     $result = mysqli_query($conexao, "INSERT INTO usuario(nome, email, senha, telefone, sexo, data_nasc, cidade, estado, endereco) VALUES ('$nome', '$email', '$senha', '$telefone', '$sexo', '$data_nasc', '$cidade', '$estado', '$endereco')");
 
-    header('Location: tela/login.php');
+    header('Location: login.php');
 
     /*print_r("Nome ".$nome);
     print_r("<br/>");
